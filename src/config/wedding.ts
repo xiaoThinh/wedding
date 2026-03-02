@@ -183,6 +183,8 @@ const weddingConfig: WeddingConfig = {
     "/images/gallery/str (5).jpg",
     "/images/gallery/str (6).jpg",
     "/images/gallery/str (7).jpg",
+    "/images/gallery/str (8).jpg",
+    "/images/gallery/str (9).jpg",
   ],
 
   loadingBg: "/images/loading-bg.jpg",

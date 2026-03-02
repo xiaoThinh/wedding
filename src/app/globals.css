@@ -103,4 +103,12 @@
       transform: translateX(100%);
     }
   }
+
+  /* Hero section enhancements */
+  @media (max-width: 768px) {
+    section[id="hero"] h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+  }
 }

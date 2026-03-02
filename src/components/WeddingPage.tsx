@@ -23,7 +23,7 @@ export default function WeddingPage({ side }: WeddingPageProps) {
         <Hero side={sideConfig} />
         <EventDetails side={sideConfig} />
         {side === "nha-trai" && <Timeline side={sideConfig} />}
-        <Gallery images={weddingConfig.gallery} />
+        <Gallery images={weddingConfig.gallery} side={sideConfig} />
         <RSVPForm side={side} sideConfig={sideConfig} />
         <Footer />
       </main>
