@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${groom.name} ❤ ${bride.name} | ${date.full}`,
     description: "Chúng mình sắp cưới! Hân hạnh mời bạn đến chung vui.",
-    images: ["/images/loading-bg.jpg"],
+    images: ["/images/loading-bg.jpg?v=2"],
     type: "website",
   },
   robots: { index: true, follow: true },
